@@ -21,7 +21,10 @@ def role_req(role):
     return wrapper
 
 
-
+@app.route("/", methods = ['GET'])
+def first():
+    print('suces')
+    return "the app is running successgully"
 
 
 @app.route("/api/login", methods = ['POST'])
