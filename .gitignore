@@ -35,3 +35,5 @@
 # Editor files (you can keep ignoring these)
 .vscode/*
 .idea
+node_modules/
+
